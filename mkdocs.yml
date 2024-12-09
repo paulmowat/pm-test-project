@@ -1,0 +1,8 @@
+site_name: "pm-test-project"
+site_description: "PM Test Project"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
