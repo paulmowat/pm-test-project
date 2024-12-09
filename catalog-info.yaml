@@ -15,13 +15,13 @@ spec:
   lifecycle: experimental
   owner: "group:default/team-a"
   providesApis:
-    - pm-test-project-api
+    - pm-test-project
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: pm-test-project-api
-  description: The pm-test-project API
+  name: pm-test-project
+  description: The pm-test-project api
   tags:
     - store
     - rest
