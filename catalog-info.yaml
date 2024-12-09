@@ -15,9 +15,9 @@ spec:
   lifecycle: experimental
   owner: "group:default/team-a"
   dependsOn:
-    - component:default/hello-world
+    - component:default/petstore
   dependencyOf:
-    - component:default/spotify
+    - component:default/podcast-api
   providesApis:
     - pm-test-project
 ---
