@@ -6,7 +6,32 @@ metadata:
   annotations:
     github.com/project-slug: paulmowat/pm-test-project
     backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://oneadvanced.com
+      title: oneAdvanced
+      icon: dashboard
 spec:
   type: service
   lifecycle: experimental
   owner: "group:default/team-a"
+  providesApis:
+    - pm-test-project-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: pm-test-project-api
+  description: The pm-test-project API
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://oneadvanced.com
+      title: oneAdvanced
+      icon: dashboard
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: "group:default/team-a"
+  definition:
+    $text: ./api.yaml
