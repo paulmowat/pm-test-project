@@ -1,6 +1,6 @@
 ## pm-test-project
 
-PM Test Project
+PM Test Project - this is good stuff
 
 ## Getting started
 
