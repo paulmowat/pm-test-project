@@ -13,11 +13,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: "group:default/team-a"
-  dependsOn:
-    - component:default/petstore
-  dependencyOf:
-    - component:default/podcast-api
+  owner: "group:default/platform-sre-devops"
   providesApis:
     - pm-test-project
 ---
@@ -36,6 +32,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: "group:default/team-a"
+  owner: "group:default/platform-sre-devops"
   definition:
     $text: ./api.yaml
