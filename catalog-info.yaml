@@ -16,6 +16,7 @@ spec:
   owner: "group:default/platform-sre-devops"
   providesApis:
     - pm-test-project
+  system: platform-service-a
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
