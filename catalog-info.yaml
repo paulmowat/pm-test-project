@@ -36,3 +36,4 @@ spec:
   owner: "group:default/platform-sre-devops"
   definition:
     $text: ./api.yaml
+  system: platform-service-a
